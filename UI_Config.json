@@ -1,0 +1,55 @@
+﻿{
+  "output_file": "settings.json",
+    "OnlyLive": {
+    "type": "checkbox",
+    "value": false,
+  	"label": "Only when live",
+    "tooltip": "Command is only active when stream is live",
+  	"group": "General"
+  },
+    "Command": {
+    "type": "textbox",
+    "value": "",
+  	"label": "KEEP EMPTY",
+    "tooltip": "The command the bot will respond to",
+  	"group": "General"
+  },
+    "Permission": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": ["Everyone","Regular","Subscriber","GameWisp Subscriber","User_Specific","Min_Rank","Min_Points","Min_Hours","Moderator","Editor","Caster"],
+    "label": "Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "General"
+  },
+    "PermissionInfo": {
+    "type": "textbox",
+    "value": "",
+    "label": "Permission level info",
+    "tooltip": "Set the user, rank or tier for permission",
+    "group": "General"
+  },
+    "SecretWord": {
+    "type": "textbox",
+    "value": "",
+    "label": "Secret Word",
+    "tooltip": "Set your secret word",
+    "group": "General"
+  },
+    "Payout": {
+    "type": "numberbox",
+    "value": 30,
+    "label": "Payout",
+    "tooltip": "How many points to give to the user who gets the secret word",
+    "group": "General"
+  },
+
+    "BaseResponse": {
+    "type": "textbox",
+    "value": "{0} has guessed the secret word. The word was {1}. {0} has won {2} {3}",
+    "label": "Success message",
+    "tooltip": " {0} = user \r\n {1} = secret word \r\n {2} = payout \r\n {3} = currency name",
+    "group": "General"
+  },
+
+}
