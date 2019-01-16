@@ -5,3 +5,8 @@ If you have any issues, bugs, or suggestions, contact me on:
 twitch.tv/yaz12321
 
 yaz1232112321@gmail.com (I do not check very often)
+
+
+NOTE: Has not been tested on a live stream. Please send feedback or bugs if you use it on a live stream.
+
+
